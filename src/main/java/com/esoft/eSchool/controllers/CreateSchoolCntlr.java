@@ -26,7 +26,7 @@ public class CreateSchoolCntlr {
 	@GetMapping(value = "/getTest")
 	public ResponseEntity<?> getTest() {
 
-		return new ResponseEntity<String>("hi  git", HttpStatus.OK);
+		return new ResponseEntity<String>("hi  git after push", HttpStatus.OK);
 
 	}
 
